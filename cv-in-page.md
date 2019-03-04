@@ -1,0 +1,3 @@
+ # Computer Vision in Web Pages
+ 
+ Asynchronous access to video frames in the CPU and/or GPU. Asynchronous because most non-video-mixed devices do not run the camera and display at the same frame rates, so synchronized access may not be practical. The scenario here is to do real-time computer vision (e.g., SLAM like 6d.ai, 8thWall, etc. are working on; CV tracking algorithms like Vuforia; face and object detection) in a platform independent way. Some of what will be done here might eventually make it into platforms (and may already exist in some platforms), such as image detection. Others would include custom algorithms that need to work everywhere, to support web applications for art, advertising, games, and so on.
